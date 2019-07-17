@@ -1,6 +1,4 @@
-let fullName: string = `Bob Bobbington`;
-let age: number = 37;
-let sentence: string = `Hello, my name is ${ fullName }.
+let list: number[] = [1, 2, 3];
+let list1: Array<number> = [1, 2, 3];
 
-I'll be ${ age + 1 } years old next month.`;
-console.log (sentence);
+console.log (list, list1);
