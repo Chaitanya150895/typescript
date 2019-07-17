@@ -1,5 +1,4 @@
-let x: [string, number];
-// Initialize it
-x = ["hello", 10]; // OK
+enum Color {Red, Green, Blue}
+let c: Color = Color.Green;
 
-console.log(x);
+console.log (c);
