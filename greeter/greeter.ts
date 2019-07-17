@@ -1,4 +1,5 @@
-let list: number[] = [1, 2, 3];
-let list1: Array<number> = [1, 2, 3];
+let x: [string, number];
+// Initialize it
+x = ["hello", 10]; // OK
 
-console.log (list, list1);
+console.log(x);

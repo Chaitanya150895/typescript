@@ -1,3 +1,4 @@
-var list = [1, 2, 3];
-var list1 = [1, 2, 3];
-console.log(list, list1);
+var x;
+// Initialize it
+x = ["hello", 10]; // OK
+console.log(x);
