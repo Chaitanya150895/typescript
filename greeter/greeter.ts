@@ -1,5 +1,5 @@
-let notSure: any = 4;
-notSure = "maybe a string instead";
-notSure = false; // okay, definitely a boolean
+let list: any[] = [1, true, "free"];
 
-console.log(notSure);
+list[1] = 100;
+
+console.log(list);
