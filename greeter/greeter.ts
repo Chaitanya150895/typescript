@@ -1,4 +1,5 @@
-enum Color {Red = 1, Green = 2, Blue = 4}
-let c: string = Color[2];
+let notSure: any = 4;
+notSure = "maybe a string instead";
+notSure = false; // okay, definitely a boolean
 
-console.log(c); // Displays 'Green' as its value is 2 above
+console.log(notSure);
