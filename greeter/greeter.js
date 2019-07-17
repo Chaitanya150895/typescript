@@ -1,14 +1,4 @@
-var Student = /** @class */ (function () {
-    function Student(firstName, middleInitial, lastName) {
-        this.firstName = firstName;
-        this.middleInitial = middleInitial;
-        this.lastName = lastName;
-        this.fullName = firstName + " " + middleInitial + " " + lastName;
-    }
-    return Student;
-}());
-function greeter(person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-var user = new Student("Jane", "M.", "User");
-document.body.textContent = greeter(user);
+var fullName = "Bob Bobbington";
+var age = 37;
+var sentence = "Hello, my name is " + fullName + ".\n\nI'll be " + (age + 1) + " years old next month.";
+console.log(sentence);

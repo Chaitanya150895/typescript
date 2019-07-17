@@ -1,19 +1,6 @@
-class Student {
-    fullName: string;
-    constructor(public firstName: string, public middleInitial: string, public lastName: string) {
-        this.fullName = firstName + " " + middleInitial + " " + lastName;
-    }
-}
+let fullName: string = `Bob Bobbington`;
+let age: number = 37;
+let sentence: string = `Hello, my name is ${ fullName }.
 
-interface Person {
-    firstName: string;
-    lastName: string;
-}
-
-function greeter(person: Person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
-
-let user = new Student("Jane", "M.", "User");
-
-document.body.textContent = greeter(user);
+I'll be ${ age + 1 } years old next month.`;
+console.log (sentence);
