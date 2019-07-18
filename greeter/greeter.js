@@ -1,3 +1,3 @@
-function warnUser() {
-    console.log("This is my warning message");
-}
+var someValue = "this is a string";
+var strLength = someValue.length;
+console.log(someValue, strLength);
