@@ -1,6 +1,3 @@
-function f(_a) {
-    var first = _a[0], second = _a[1];
-    console.log(first);
-    console.log(second);
-}
-f([1, 2]);
+var _a = [1, 2, 3, 4], first = _a[0], rest = _a.slice(1);
+console.log(first); // outputs 1
+console.log(rest); // outputs [ 2, 3, 4 ]
