@@ -1,3 +1,2 @@
-var _a = [1, 2, 3, 4], first = _a[0], rest = _a.slice(1);
-console.log(first); // outputs 1
-console.log(rest); // outputs [ 2, 3, 4 ]
+var tuple = [7, "hello", true];
+var a = tuple[0], b = tuple[1], c = tuple[2]; // a: number, b: string, c: boolean
