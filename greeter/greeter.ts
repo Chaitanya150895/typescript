@@ -1,1 +1,3 @@
-let { a, b }: { a: string, b: number } = o;
+function keepWholeObject(wholeObject: { a: string, b?: number }) {
+    let { a, b = 1001 } = wholeObject;
+}
