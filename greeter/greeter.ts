@@ -1,3 +1,10 @@
-function keepWholeObject(wholeObject: { a: string, b?: number }) {
-    let { a, b = 1001 } = wholeObject;
-}
+class C {
+    p = 12;
+    m() {
+    }
+  }
+  let c = new C();
+  let clone = { ...c };
+  clone.p; // ok
+  clone.m(); // error!
+  
