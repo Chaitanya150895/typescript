@@ -1,10 +1,10 @@
-class C {
-    p = 12;
-    m() {
-    }
-  }
-  let c = new C();
-  let clone = { ...c };
-  clone.p; // ok
-  clone.m(); // error!
-  
+interface LabeledValue {
+    label: string;
+}
+
+function printLabel(labeledObj: LabeledValue) {
+    console.log(labeledObj.label);
+}
+
+let myObj = {size: 10, label: "Size 20 Object"};
+printLabel(myObj);
